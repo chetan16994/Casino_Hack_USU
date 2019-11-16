@@ -1,6 +1,6 @@
 public interface Casino {
 
-    public void placeBet();
+    public int placeBet();
     public void roll();
     public void result();
 }

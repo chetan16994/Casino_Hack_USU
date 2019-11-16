@@ -2,16 +2,23 @@ public class ChoseGame {
 
     private final String game;
     private int[] numbers = new int[5];
+    int bet_amount;
 
     ChoseGame(String game)
     {
         this.game=game;
 
         if (game.equals("a")||game.equals("A")){
-            // call Game A
+            GameA gameA=new GameA();
+           bet_amount= gameA.placeBet();
+            System.out.println("Betting mount is "+bet_amount);
+           gameA.roll();
         }
         if (game.equals("b")||game.equals("B")){
-            //call game b
+            GameB gameB=new GameB();
+            bet_amount= gameB.placeBet();
+            gameB.roll();
+
         }
 
     }

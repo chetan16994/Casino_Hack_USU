@@ -24,5 +24,9 @@ public class Main {
             }
             ChoseGame choseGame=new ChoseGame(game,numbers);
         }
+        else
+        {
+            ChoseGame choseGame=new ChoseGame(game);
+        }
     }
 }

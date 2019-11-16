@@ -1,8 +1,13 @@
+import java.util.Scanner;
+
 public class GameA implements Casino{
 
+    int bet_amount;
     @Override
-    public void placeBet() {
-
+    public int placeBet() {
+      PlaceBet pb=new PlaceBet();
+      bet_amount=pb.placeBet();
+       return bet_amount;
     }
 
     @Override

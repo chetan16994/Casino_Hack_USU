@@ -1,4 +1,21 @@
-package PACKAGE_NAME;
+public class GameB implements Casino{
 
-public class GameB {
+    int bet_amount;
+
+    @Override
+    public int placeBet() {
+        PlaceBet pb=new PlaceBet();
+        bet_amount = pb.placeBet();
+        return bet_amount;
+    }
+
+    @Override
+    public void roll() {
+
+    }
+
+    @Override
+    public void result() {
+
+    }
 }
