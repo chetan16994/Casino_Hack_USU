@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62e06f0a-4dc3-4042-a589-77142d87488f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Result.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -10,14 +11,8 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Casino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Casino.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ChoseGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ChoseGame.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ChoseGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ChoseGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GameA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GameA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GameB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GameB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GameC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GameC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PlaceBet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PlaceBet.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +57,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Result">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Casino_HAck_USU.main" />
@@ -70,8 +65,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Result" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Result" />
+      <module name="Casino_HAck_USU.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Result" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -86,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573940322528</updated>
-      <workItem from="1573940326408" duration="4156000" />
+      <workItem from="1573940326408" duration="5333000" />
     </task>
     <servers />
   </component>

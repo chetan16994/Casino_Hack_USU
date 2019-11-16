@@ -18,9 +18,7 @@ public class ChoseGame {
             GameB gameB=new GameB();
             bet_amount= gameB.placeBet();
             gameB.roll();
-
         }
-
     }
     ChoseGame(String game, int[] numbers){
 
