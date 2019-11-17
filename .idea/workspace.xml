@@ -9,22 +9,23 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/CalculateProb.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/CalculateProb.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/Casino.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Casino.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/ChoseGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ChoseGame.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/GameA.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/GameA.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/GameB.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/GameB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/GameC.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/GameC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/GameC.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Roll.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Roll.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CalculateProb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CalculateProb.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Casino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Casino.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ChoseGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ChoseGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/GameA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GameA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/GameB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GameB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/GameC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GameC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Roll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Roll.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +102,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573940322528</updated>
-      <workItem from="1573940326408" duration="18024000" />
+      <workItem from="1573940326408" duration="22045000" />
+      <workItem from="1573979004135" duration="1556000" />
     </task>
     <servers />
   </component>
@@ -113,7 +115,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
