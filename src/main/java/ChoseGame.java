@@ -9,17 +9,17 @@ public class ChoseGame {
     ArrayList<String> last10ResultA =new ArrayList<>();
 
 
-    public ChoseGame(String gameC, int[] numbers){
-
-        this.gameC = gameC;
-        this.numbers=numbers;
-
-        GameC gC=new GameC();
-        bet_amount= gC.placeBet();
-        System.out.println("Betting mount is "+bet_amount);
-
-
-    }
+//    public ChoseGame(String gameC, int[] numbers){
+//
+//        this.gameC = gameC;
+//        this.numbers=numbers;
+//
+//        GameC gC=new GameC();
+//        bet_amount= gC.placeBet();
+//        System.out.println("Betting mount is "+bet_amount);
+//
+//
+//    }
 
    public ChoseGame(String game)
     {
@@ -29,14 +29,12 @@ public class ChoseGame {
             GameA gameA=new GameA();
            bet_amount= gameA.placeBet();
             System.out.println("Betting mount is "+bet_amount);
-
             gameA.roll();
-
-
         }
         if (game.equals("b")||game.equals("B")){
             GameB gameB=new GameB();
             bet_amount= gameB.placeBet();
+            System.out.println("Betting mount is "+bet_amount);
             gameB.roll();
         }
     }

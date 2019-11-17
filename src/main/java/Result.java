@@ -14,21 +14,10 @@ public class Result {
 //    }
 
     public void Initializer_(){
-        results_for_gameA.add("win");
         results_for_gameA.add("loss");
         results_for_gameA.add("loss");
-        results_for_gameA.add("win");
-        results_for_gameA.add("loss");
-        results_for_gameA.add("win");
-        results_for_gameA.add("loss");
-        results_for_gameA.add("win");
         results_for_gameA.add("loss");
         results_for_gameA.add("loss");
-
-        results_for_gameA.add("win");
-        results_for_gameA.add("loss");
-        results_for_gameA.add("loss");
-        results_for_gameA.add("win");
         results_for_gameA.add("loss");
         results_for_gameA.add("win");
         results_for_gameA.add("loss");
@@ -36,16 +25,16 @@ public class Result {
         results_for_gameA.add("loss");
         results_for_gameA.add("loss");
 
-        results_for_gameB.add("win");
-        results_for_gameB.add("loss");
-        results_for_gameB.add("loss");
-        results_for_gameB.add("win");
-        results_for_gameB.add("loss");
-        results_for_gameB.add("win");
-        results_for_gameB.add("loss");
-        results_for_gameB.add("win");
-        results_for_gameB.add("loss");
-        results_for_gameB.add("loss");
+        results_for_gameA.add("loss");
+        results_for_gameA.add("loss");
+        results_for_gameA.add("loss");
+        results_for_gameA.add("loss");
+        results_for_gameA.add("loss");
+        results_for_gameA.add("loss");
+        results_for_gameA.add("loss");
+        results_for_gameA.add("win");
+        results_for_gameA.add("loss");
+        results_for_gameA.add("loss");
 
         results_for_gameB.add("win");
         results_for_gameB.add("loss");
@@ -58,29 +47,40 @@ public class Result {
         results_for_gameB.add("loss");
         results_for_gameB.add("loss");
 
+        results_for_gameB.add("win");
+        results_for_gameB.add("loss");
+        results_for_gameB.add("loss");
+        results_for_gameB.add("win");
+        results_for_gameB.add("loss");
+        results_for_gameB.add("win");
+        results_for_gameB.add("loss");
+        results_for_gameB.add("win");
+        results_for_gameB.add("loss");
+        results_for_gameB.add("loss");
 
-        results_for_gameC.add("win");
-        results_for_gameC.add("loss");
-        results_for_gameC.add("loss");
-        results_for_gameC.add("win");
-        results_for_gameC.add("loss");
-        results_for_gameC.add("win");
-        results_for_gameC.add("loss");
-        results_for_gameC.add("win");
-        results_for_gameC.add("loss");
-        results_for_gameC.add("loss");
 
-        results_for_gameC.add("win");
-        results_for_gameC.add("loss");
-        results_for_gameC.add("loss");
-        results_for_gameC.add("win");
-        results_for_gameC.add("loss");
-        results_for_gameC.add("win");
-        results_for_gameC.add("loss");
-        results_for_gameC.add("win");
-        results_for_gameC.add("loss");
-        results_for_gameC.add("loss");
-        
+//        results_for_gameC.add("win");
+//        results_for_gameC.add("loss");
+//        results_for_gameC.add("loss");
+//        results_for_gameC.add("win");
+//        results_for_gameC.add("loss");
+//        results_for_gameC.add("win");
+//        results_for_gameC.add("loss");
+//        results_for_gameC.add("win");
+//        results_for_gameC.add("loss");
+//        results_for_gameC.add("loss");
+//
+//        results_for_gameC.add("win");
+//        results_for_gameC.add("loss");
+//        results_for_gameC.add("loss");
+//        results_for_gameC.add("win");
+//        results_for_gameC.add("loss");
+//        results_for_gameC.add("win");
+//        results_for_gameC.add("loss");
+//        results_for_gameC.add("win");
+//        results_for_gameC.add("loss");
+//        results_for_gameC.add("loss");
+//
     }
     
     public void storeResultA(String resultA){

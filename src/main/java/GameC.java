@@ -18,4 +18,9 @@ public class GameC implements Casino{
     public void result() {
 
     }
+
+    @Override
+    public void displayResult() {
+
+    }
 }

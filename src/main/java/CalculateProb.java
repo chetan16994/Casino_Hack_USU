@@ -7,12 +7,6 @@ public class CalculateProb {
     int loss_count=0;
     String next_result;
 
-    //private final ArrayList<String> results;
-
-//    public  CalculateProb(ArrayList<String> results){
-//        this.results=results;
-//    }
-
     public String nextResult(ArrayList<String> results){
         Iterator iter = results.iterator();
         while (iter.hasNext()) {
@@ -27,18 +21,17 @@ public class CalculateProb {
             //System.out.println(iter.next());
         }
 
-        if (win_count<44)
+        if (win_count<4)
         {
-               next_result="loss";
+               next_result="win";
         }
         else
         {
-            next_result="win";
+            next_result="loss";
         }
 
         return next_result;
     }
 
-    public void next_result(ArrayList<String> last10ResultA) {
-    }
+
 }
