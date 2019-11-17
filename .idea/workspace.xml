@@ -8,23 +8,18 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/CalculateProb.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/CalculateProb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Casino.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Casino.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/ChoseGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ChoseGame.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/GameA.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/GameA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/GameB.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/GameB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/GameC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/PlaceBet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/PlaceBet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/Roll.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Roll.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CalculateProb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CalculateProb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Casino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Casino.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ChoseGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ChoseGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/GameA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GameA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GameB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GameB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GameC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GameC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GameC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PlaceBet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PlaceBet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Roll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Roll.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,6 +38,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -54,9 +50,19 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -70,25 +76,114 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Casino_HAck_USU.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager" selected="Gradle.GameATest.rollTest">
+    <configuration name="ChoseGameTest.ChoseGameTestConst" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ChoseGameTest.ChoseGameTestConst&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
-    <configuration name="Result" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Result" />
-      <module name="Casino_HAck_USU.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="GameATest.displayResult" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;GameATest.displayResult&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="GameATest.displayResultTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;GameATest.displayResultTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="GameATest.placeBet" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;GameATest.placeBet&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="GameATest.rollTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;GameATest.rollTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Result" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Gradle.GameATest.rollTest" />
+        <item itemvalue="Gradle.GameATest.displayResultTest" />
+        <item itemvalue="Gradle.GameATest.displayResult" />
+        <item itemvalue="Gradle.GameATest.placeBet" />
+        <item itemvalue="Gradle.ChoseGameTest.ChoseGameTestConst" />
       </list>
     </recent_temporary>
   </component>
@@ -103,7 +198,7 @@
       <option name="presentableId" value="Default" />
       <updated>1573940322528</updated>
       <workItem from="1573940326408" duration="22045000" />
-      <workItem from="1573979004135" duration="1556000" />
+      <workItem from="1573979004135" duration="7659000" />
     </task>
     <servers />
   </component>

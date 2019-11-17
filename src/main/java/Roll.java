@@ -21,7 +21,6 @@ public class Roll {
             System.out.println("game B");
             rollB();
         }
-
     }
 
     public void rollA(){
@@ -60,7 +59,6 @@ public class Roll {
         System.out.println("second number is = "+input2);
         GameA gA=new GameA();
         gA.displayResult(next_result);
-
     }
 
     public void rollB(){
@@ -75,7 +73,6 @@ public class Roll {
         next_result = cp.nextResult(last10ResultB);
 //        System.out.println("result for b inside roll"+next_result);
        // rs.storeResultB(next_result);
-
 
         if (next_result.equals("win")) {
             input2=input1;
