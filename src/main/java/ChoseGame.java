@@ -1,10 +1,27 @@
+import java.util.ArrayList;
+
 public class ChoseGame {
 
-    private final String game;
+    private  String gameC;
+    private String game;
     private int[] numbers = new int[5];
     int bet_amount;
+    ArrayList<String> last10ResultA =new ArrayList<>();
 
-    ChoseGame(String game)
+
+    public ChoseGame(String gameC, int[] numbers){
+
+        this.gameC = gameC;
+        this.numbers=numbers;
+
+        GameC gC=new GameC();
+        bet_amount= gC.placeBet();
+        System.out.println("Betting mount is "+bet_amount);
+
+
+    }
+
+   public ChoseGame(String game)
     {
         this.game=game;
 
@@ -12,19 +29,15 @@ public class ChoseGame {
             GameA gameA=new GameA();
            bet_amount= gameA.placeBet();
             System.out.println("Betting mount is "+bet_amount);
-           gameA.roll();
+
+            gameA.roll();
+
+
         }
         if (game.equals("b")||game.equals("B")){
             GameB gameB=new GameB();
             bet_amount= gameB.placeBet();
             gameB.roll();
         }
-    }
-    ChoseGame(String game, int[] numbers){
-
-        this.game = game;
-        this.numbers=numbers;
-
-        //call game c
     }
 }
