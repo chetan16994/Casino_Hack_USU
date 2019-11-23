@@ -18,7 +18,7 @@ public class ChoseGame {
             System.out.println("Betting mount is "+bet_amount);
             gameA.roll();
         }
-        if (game.equals("b")||game.equals("B")){
+        else if (game.equals("b")||game.equals("B")){
             GameB gameB=new GameB();
             bet_amount= gameB.placeBet();
             System.out.println("Betting mount is "+bet_amount);

@@ -4,7 +4,6 @@
     <list default="true" id="62e06f0a-4dc3-4042-a589-77142d87488f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ChoseGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ChoseGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Result.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Roll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Roll.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="167" />
+    <option name="myElementSize" value="199" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -59,8 +58,14 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\docsa\IdeaProjects\Casino_HAck_USU\Interation diagram" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\docsa\IdeaProjects\Casino_HAck_USU" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -75,33 +80,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.ChoseGameTest.counstructorChoseGameTest">
+  <component name="RunManager" selected="Gradle.RollTest.rollA">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Casino_HAck_USU.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ChoseGameTest.counstructorChoseGameTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;ChoseGameTest.counstructorChoseGameTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="GameATest.displayResult" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;GameATest.displayResult&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -156,12 +148,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RollTest.rollB" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RollTest.rollA" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;RollTest.rollB&quot;" />
+        <option name="scriptParameters" value="--tests &quot;RollTest.rollA&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -178,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ChoseGameTest.counstructorChoseGameTest" />
-        <item itemvalue="Gradle.GameATest.roll" />
+        <item itemvalue="Gradle.RollTest.rollA" />
         <item itemvalue="Gradle.GameBTest.roll" />
-        <item itemvalue="Gradle.GameATest.displayResult" />
-        <item itemvalue="Gradle.RollTest.rollB" />
+        <item itemvalue="Gradle.GameATest.roll" />
+        <item itemvalue="Gradle.ChoseGameTest.counstructorChoseGameTest" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +192,7 @@
       <workItem from="1573979004135" duration="8181000" />
       <workItem from="1574067481859" duration="1266000" />
       <workItem from="1574208774900" duration="1232000" />
-      <workItem from="1574373895981" duration="8222000" />
+      <workItem from="1574373895981" duration="9281000" />
     </task>
     <servers />
   </component>
@@ -221,6 +213,7 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Casino_HAck_USU$Main.ic" NAME="Main Coverage Results" MODIFIED="1574490109223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Casino_HAck_USU$RollTest.ic" NAME="RollTest Coverage Results" MODIFIED="1574486667718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Casino_HAck_USU$GameATest_roll.ic" NAME="GameATest.roll Coverage Results" MODIFIED="1574488680914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Casino_HAck_USU$ChoseGameTest_counstructorChoseGameTest.ic" NAME="ChoseGameTest.counstructorChoseGameTest Coverage Results" MODIFIED="1574489431397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

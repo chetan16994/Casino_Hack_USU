@@ -17,7 +17,7 @@ public class Roll {
             System.out.println("game B");
             rollA();
         }
-        if (game_name.equals("B")) {
+        else if (game_name.equals("B")) {
             System.out.println("game B");
             rollB();
         }
