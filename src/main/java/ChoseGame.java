@@ -8,18 +8,6 @@ public class ChoseGame {
     int bet_amount;
     ArrayList<String> last10ResultA =new ArrayList<>();
 
-//    public ChoseGame(String gameC, int[] numbers){
-//
-//        this.gameC = gameC;
-//        this.numbers=numbers;
-//
-//        GameC gC=new GameC();
-//        bet_amount= gC.placeBet();
-//        System.out.println("Betting mount is "+bet_amount);
-//
-//
-//    }
-
    public ChoseGame(String game)
     {
         this.game=game;
@@ -36,5 +24,7 @@ public class ChoseGame {
             System.out.println("Betting mount is "+bet_amount);
             gameB.roll();
         }
+        else
+            System.out.println("invalid game input");
     }
 }

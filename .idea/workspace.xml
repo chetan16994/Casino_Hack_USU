@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62e06f0a-4dc3-4042-a589-77142d87488f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ChoseGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ChoseGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/GameA.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/GameA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/PlaceBet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/PlaceBet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Roll.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Roll.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ChoseGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ChoseGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GameA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GameA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GameC.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PlaceBet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PlaceBet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Result.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Roll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Roll.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,10 +13,23 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="167" />
+  </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -52,6 +50,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -76,13 +75,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.GameATest.rollTest">
-    <configuration name="ChoseGameTest.ChoseGameTestConst" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.ChoseGameTest.counstructorChoseGameTest">
+    <configuration name="ChoseGameTest.counstructorChoseGameTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ChoseGameTest.ChoseGameTestConst&quot;" />
+        <option name="scriptParameters" value="--tests &quot;ChoseGameTest.counstructorChoseGameTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -117,12 +116,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GameATest.displayResultTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GameATest.roll" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;GameATest.displayResultTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;GameATest.roll&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -137,12 +136,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GameATest.placeBet" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GameBTest.roll" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;GameATest.placeBet&quot;" />
+        <option name="scriptParameters" value="--tests &quot;GameBTest.roll&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -157,12 +156,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GameATest.rollTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RollTest.rollB" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;GameATest.rollTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;RollTest.rollB&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -179,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.GameATest.rollTest" />
-        <item itemvalue="Gradle.GameATest.displayResultTest" />
+        <item itemvalue="Gradle.ChoseGameTest.counstructorChoseGameTest" />
+        <item itemvalue="Gradle.GameATest.roll" />
+        <item itemvalue="Gradle.GameBTest.roll" />
         <item itemvalue="Gradle.GameATest.displayResult" />
-        <item itemvalue="Gradle.GameATest.placeBet" />
-        <item itemvalue="Gradle.ChoseGameTest.ChoseGameTestConst" />
+        <item itemvalue="Gradle.RollTest.rollB" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +197,10 @@
       <option name="presentableId" value="Default" />
       <updated>1573940322528</updated>
       <workItem from="1573940326408" duration="22045000" />
-      <workItem from="1573979004135" duration="7659000" />
+      <workItem from="1573979004135" duration="8181000" />
+      <workItem from="1574067481859" duration="1266000" />
+      <workItem from="1574208774900" duration="1232000" />
+      <workItem from="1574373895981" duration="8222000" />
     </task>
     <servers />
   </component>
@@ -217,5 +219,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Casino_HAck_USU$RollTest.ic" NAME="RollTest Coverage Results" MODIFIED="1574486667718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Casino_HAck_USU$GameATest_roll.ic" NAME="GameATest.roll Coverage Results" MODIFIED="1574488680914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Casino_HAck_USU$ChoseGameTest_counstructorChoseGameTest.ic" NAME="ChoseGameTest.counstructorChoseGameTest Coverage Results" MODIFIED="1574489431397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Casino_HAck_USU$GameBTest_roll.ic" NAME="GameBTest.roll Coverage Results" MODIFIED="1574488661879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

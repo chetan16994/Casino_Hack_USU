@@ -117,13 +117,13 @@ public class Result {
         return Last10ResultB;
     }
 
-    public ArrayList<String> getLastResultC(){
-        ArrayList<String> Last10ResultC=new ArrayList<>();
-        for (int i=results_for_gameC.size()-1;i>results_for_gameA.size()-11; i--) {
-            Last10ResultC.add(results_for_gameC.get(i));
-            System.out.println(results_for_gameC.get(i));
-        }
-        return Last10ResultC;
-    }
+//    public ArrayList<String> getLastResultC(){
+//        ArrayList<String> Last10ResultC=new ArrayList<>();
+//        for (int i=results_for_gameC.size()-1;i>results_for_gameA.size()-11; i--) {
+//            Last10ResultC.add(results_for_gameC.get(i));
+//            System.out.println(results_for_gameC.get(i));
+//        }
+//        return Last10ResultC;
+//    }
 
 }

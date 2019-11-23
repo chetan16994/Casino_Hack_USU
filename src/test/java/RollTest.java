@@ -1,47 +1,26 @@
+ import org.junit.Test;
+
 import java.util.ArrayList;
-import java.util.Scanner;
 
-public class Roll {
+import static org.junit.Assert.*;
 
-    int input1;
-    int input2;
-    String next_result;
-    private  String game_name;
-    ArrayList<String> last10ResultA;
-    ArrayList<String> last10ResultB;
+public class RollTest {
 
-    public Roll(String game_name){
-        this.game_name=game_name;
-
-        if (game_name.equals("A")) {
-            System.out.println("game B");
-            rollA();
-        }
-        if (game_name.equals("B")) {
-            System.out.println("game B");
-            rollB();
-        }
-        else
-            System.out.println("invalid input");
-    }
-
-    public void rollA(){
-
-        input1 = (int) (Math.random() * (10)) + 1;
-        System.out.println("1st number is = " + input1);
-
-        Scanner sc = new Scanner(System.in);
-        System.out.println("type 1 for other roll");
-        int user_command = sc.nextInt();
+    @Test
+    public void rollA() {
+        int input2;
+        int input1 = (int) (Math.random() * (10)) + 1;
+        int user_command = 1;
 
         Result rs = new Result();
         rs.Initializer_();
-        last10ResultA = rs.getLast10ResultA();
+        ArrayList<String> last10ResultA = rs.getLast10ResultA();
         CalculateProb cp = new CalculateProb();
-        next_result = cp.nextResult(last10ResultA);
-       // rs.storeResultA(next_result);
+        String next_result = cp.nextResult(last10ResultA);
+
 
         if (user_command == 1){
+
             if (next_result.equals("win")) {
                 input2=input1;
             } else {
@@ -58,24 +37,27 @@ public class Roll {
         else
             System.out.println("invalid user_command");
 
-        System.out.println("second number is = "+input2);
+
         GameA gA=new GameA();
         gA.displayResult(next_result);
+
     }
 
-    public void rollB(){
+    @Test
+    public void rollB() {
 
-        input1 = (int) (Math.random() * (10)) + 1;
+        int input1 = (int) (Math.random() * (10)) + 1;
         System.out.println("1st number is = " + input1);
 
         Result rs = new Result();
         rs.Initializer_();
-        last10ResultB = rs.getLast10ResultB();
+        ArrayList<String> last10ResultB = rs.getLast10ResultB();
         CalculateProb cp = new CalculateProb();
-        next_result = cp.nextResult(last10ResultB);
+        String next_result = cp.nextResult(last10ResultB);
 //        System.out.println("result for b inside roll"+next_result);
-       // rs.storeResultB(next_result);
+        // rs.storeResultB(next_result);
 
+        int input2;
         if (next_result.equals("win")) {
             input2=input1;
         } else {
@@ -89,8 +71,8 @@ public class Roll {
             }
         }
 
-        System.out.println("second number is = "+input2);
         GameB gB=new GameB();
         gB.displayResult(next_result);
+
     }
 }
